@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MonitorFitness</string>
     <string name="title_activity_home">Map</string>
+    <string name="title_activity_tela_estudo_maps">Map</string>
 </resources>

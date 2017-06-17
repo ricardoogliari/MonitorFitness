@@ -10,7 +10,7 @@
     <!--
      FINE: acesso fino a localização. Logo, entende-se por GPS e A-GPS.
      COURSE: métodos de geolocalização baseados na rede de telefonia. Por exemplo: cell-id, tdoa, etc
-     -->
+    -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -19,9 +19,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListSensorsActivity">
-
-        </activity>
+        <activity android:name=".ListSensorsActivity"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -37,6 +35,11 @@
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home">
+
+        </activity>
+        <activity
+            android:name=".TelaEstudoMapsActivity"
+            android:label="@string/title_activity_tela_estudo_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
